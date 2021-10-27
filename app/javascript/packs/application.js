@@ -18,16 +18,15 @@ import App from '../app.vue'
 
 document.addEventListener('turbolinks:load', function() {
 let element = document.querySelector("#boards")
-    if(element != undefined) {
-        const app = new Vue ({
-            el: element,
-            data: {
-                lists: JSON.parse(element.dataset.lists)
-            },
-            template: "<App :original_lists='lists"/>",
-            components: { App }
-       }
-})
+    const app = new Vue({
+        el: element,
+        data: {
+            lists: JSON.parse(element.dataset.lists)
+        },
+        template: "<App :original_lists='lists' />",
+        components: { App }
+    })
+});
 
 //document.addEventListener('DOMContentLoaded', () => {
   //  const app = new Vue({
