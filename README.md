@@ -1,11 +1,8 @@
-# README
+# rails-vue-trello-app
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Rails with integrated Vue JS, rendering lists and card boards - w Bootstrap 5, Devise.
 
-Things you may want to cover:
-
-* Ruby version
+* Ruby version 3.0.0
 
 * System dependencies
 

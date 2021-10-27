@@ -6,6 +6,8 @@
       <div v-for="(card, index) in list.cards" class="card card-body">
        {{ card.name }}
       </div>
+      <textarea></textarea>
+      <button class="btn btn-secondary btn-sm">Add Card</button>
     </div>
   </div>
 </template>
